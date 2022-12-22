@@ -4610,28 +4610,6 @@ darkWeak = ["fighting", "dragon", "fairy"];
 steelWeak = ["fire", "water", "electric", "steel"];
 fairyWeak = ["fire", "poison", "steel"];
 
-
-// normalWeak = ["rock", "steel"];
-// fireWeak = ["fire", "water", "rock", "dragon"];
-// waterWeak = ["water", "grass", "dragon"];
-// grassWeak = ["fire", "grass", "poison", "flying", "bug", "dragon", "steel"];
-// electricWeak = ["grass", "electric", "dragon"];
-// iceWeak = ["fire", "water", "ice", "steel"];
-// fightingWeak = ["poison", "flying", "psychic", "bug", "fairy"];
-// poisonWeak = ["poison", "ground", "rock", "ghost"];
-// groundWeak = ["grass", "bug"];
-// flyingWeak = ["electric", "rock", "steel"];
-// psychicWeak = ["psychic", "steel"];
-// bugWeak = ["fire", "fighting", "poison", "flying", "dragon", "steel", "fairy"];
-// rockWeak = ["fighting", "ground", "steel"];
-// ghostWeak = ["dark"];
-// dragonWeak = ["steel"];
-// darkWeak = ["fighting", "dragon", "fairy"];
-// steelWeak = ["fire", "water", "electric", "steel"];
-// fairyWeak = ["fire", "poison", "steel"];
-
-
-
 normalImmune = ["ghost"];
 fireImmune = [];
 waterImmune = [];
