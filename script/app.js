@@ -44,26 +44,42 @@ function runScript() {
   let holdingEasy = "";
   let holdingMedium = "";
   let holdingHard = "";
+  let teraEasyCount =0
+  let teraHardCount =0
+  let easyCount =0
+  let mediumCount =0
+  let hardCount =0
 
   getPokemon = pokeName.indexOf(myPokemon);
   getRaidResults({ attackingPokemon: getPokemon });
   say(`You Pokemon ${myPokemon}`);
 
   for (let i = 0; i < raidPokemon5StarArray[0].length; i++) {
-    if (raidPokemon5StarArray[0][i].damage > 1)
+    if (raidPokemon5StarArray[0][i].damage > 1){
       teraEasy += `<br>${raidPokemon5StarArray[0][i].name}`;
-    if (raidPokemon5StarArray[0][i].damage <= 0.5)
+      teraEasyCount++
+    }
+    if (raidPokemon5StarArray[0][i].damage <= 0.5){
       teraHard += `<br>${raidPokemon5StarArray[0][i].name}`;
+      teraHardCount++
+
+    }
   }
 
   if (raidStar == 5) {
     for (let i = 0; i < raidPokemon5StarArray[1].length; i++) {
-      if (raidPokemon5StarArray[1][i].damage < 1)
+      if (raidPokemon5StarArray[1][i].damage < 1){
         holdingEasy += `<br>${raidPokemon5StarArray[1][i].name}`;
-      if (raidPokemon5StarArray[1][i].damage == 1)
+      easyCount++
+      }
+      if (raidPokemon5StarArray[1][i].damage == 1){
         holdingMedium += `<br>${raidPokemon5StarArray[1][i].name}`;
-      if (raidPokemon5StarArray[1][i].damage > 1)
+      mediumCount++
+      }
+      if (raidPokemon5StarArray[1][i].damage > 1){
         holdingHard += `<br>${raidPokemon5StarArray[1][i].name} ----------  Damage: x${raidPokemon5StarArray[1][i].damage}`;
+      hardCount++
+      }
     }
   }
 
@@ -71,15 +87,19 @@ function runScript() {
     for (let i = 0; i < raidPokemon6StarArray[1].length; i++) {
       if (raidPokemon6StarArray[1][i].damage < 1) {
         holdingEasy += `<br>${raidPokemon6StarArray[1][i].name}`;
-        say(raidPokemon6StarArray[1][i].name);
+        easyCount++
       }
-      if (raidPokemon6StarArray[1][i].damage == 1)
+      if (raidPokemon6StarArray[1][i].damage == 1){
         holdingMedium += `<br>${raidPokemon6StarArray[1][i].name}`;
-      if (raidPokemon6StarArray[1][i].damage > 1)
+      mediumCount++
+      }
+      if (raidPokemon6StarArray[1][i].damage > 1){
         holdingHard += `<br>${raidPokemon6StarArray[1][i].name} ----------  Damage: x${raidPokemon6StarArray[1][i].damage}`;
+      hardCount++
+      }
     }
   }
-  outputVarType.innerHTML = `Results<br><br>These are the Tera Types you should be looking for.${teraEasy}<br><br>These are the Tera Types you should avoid.${teraHard}<br><br>These Pokemon should be very easy with the proper tera type.${holdingEasy}<br><br>These Pokemon may give a little trouble if tera type has resistance.${holdingMedium}<br><br>These Pokemon should be AVOIDED!${holdingHard}`;
+  outputVarType.innerHTML = `Results<br><br>These are the Tera Types you should be looking for. (${teraEasyCount})${teraEasy}<br><br>These are the Tera Types you should avoid. (${teraHardCount})${teraHard}<br><br>These Pokemon should be very easy with the proper tera type. (${easyCount})${holdingEasy}<br><br>These Pokemon may give a little trouble if tera type has resistance. (${mediumCount})${holdingMedium}<br><br>These Pokemon should be AVOIDED! (${hardCount})${holdingHard}`;
   // outputVarType.innerHTML=holdingVar
 
   say("Raid Star Level 5");
