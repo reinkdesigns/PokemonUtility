@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(39, 39, 39);
+    height: 3000px;
+    color:white
+}
+
+* { box-sizing: border-box; }
+body {
+  font: 16px Arial;
+}
+
+.pokemonInput{
+    color:black;
+}
+

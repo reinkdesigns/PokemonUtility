@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon Utility Tool Gen 9</title>
+    <link rel="stylesheet" href="../style/style.css" />
+
+    <!--Navigation bar-->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <div id="nav-placeholder"></div>
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("nav/navBar.html");
+      });
+    </script>
+    <!--end of Navigation bar-->
+  </head>
+
+  <body>
+    <h1>raid calculator</h1>
+    <div style="font-size: 80px" id="output"></div>
+    <!-- <button id="calculate">Click</button>
+    <div id="pokemonInput">
+    <form autocomplete="off" action="/action_page.php">
+        <div class="autocomplete" style="width:300px;">
+          <input id="pokemonOne" type="text" name="myPokemon" placeholder="Pokemon Team One">
+          <input id="pokemonTwo" type="text" name="myPokemon" placeholder="Pokemon Team Two">
+        </div>
+        <input type="submit">
+      </form>
+    </div> -->
+
+    <div id="outputDiv">Enter Pokemon</div>
+    <input id="inputDiv" type="text" onfocus="this.select();" value="Name..." />
+    <br><br>
+    <p>Select Raid Level.</p>
+    <input type="radio" id="raid5" name="raidLevel" value="5" checked>
+    <label for="html">Five Star</label><br>
+    <input type="radio" id="raid6" name="raidLevel" value="6">
+    <label for="css">Six Star</label><br>
+    <br>
+    <button id="inputBtn">Submit</button>
+    <br>
+    <br>
+    <div id="outputDivType"></div>
+
+    <script src="../array/pokemon.js"></script>
+    <!-- 
+
+        
+
+        Support Devlopment
+            pateron
+     -->
+    <script src="../script/app.js"></script>
+  </body>
+</html>
