@@ -97,18 +97,9 @@ function runScript() {
 
 
 function getRaidResults({ attackingPokemon = "ditto" }) {
-  let raidPokemonList = "";
   let myTeamPokemon = pokeType[attackingPokemon];
   let teraType = "normal";
   let damage = 0;
-  if (raidStar == 5) {
-    raidPokemonList = pokeRaid5Type;
-    pokeRaidName = pokeRaid5Name;
-  }
-  if (raidStar == 6) {
-    raidPokemonList = pokeRaid6Type;
-    pokeRaidName = pokeRaid6Name;
-  }
 
   for (let i = 0; i < 2; i++) {
     raidPokemon5StarArray[i] = [];
@@ -154,12 +145,6 @@ function getRaidResults({ attackingPokemon = "ditto" }) {
       star:6,
     });
   }
-
-
-
-  //take pokemon
-  //compair aginst every raid encounter + tera type
-  //return results
 
   return;
 }
@@ -228,8 +213,6 @@ function writeRaidData({
   }
 
   if (star == 5) {
-    // pokeLength = pokeRaid5Name.length;
-    // let raidPokemonList = pokeRaid5Type;
     pokeRaidName = pokeRaid5Name;
     raidPokemon5StarArray[damageIndex][indexPokemon] = {
       name: pokeRaidName[indexPokemon],
@@ -238,8 +221,6 @@ function writeRaidData({
     return;
   }
   if (star == 6) {
-    // pokeLength = pokeRaid6Name.length;
-    // let raidPokemonList = pokeRaid6Type;
     pokeRaidName = pokeRaid6Name;
     raidPokemon6StarArray[damageIndex][indexPokemon] = {
       name: pokeRaidName[indexPokemon],
