@@ -40,7 +40,7 @@ function runScript() {
     if(raidRadio[i].checked) raidStar = raidRadio[i].value;
   }
 
-say(raidStar)
+
 
   
   myPokemon = inputBox.value.toLowerCase();
@@ -97,9 +97,10 @@ say(raidStar)
     }
     }
 
-  say(raidPokemon5StarArray);
-  say(raidPokemon6StarArray);
-  say(raidStar);
+    say("Raid Star Level 5");
+    say(raidPokemon5StarArray);
+    say("Raid Star Level 6");
+    say(raidPokemon6StarArray);
 
 }
 
@@ -107,7 +108,6 @@ say(raidStar)
 
 
 function getRaidResults({ attackingPokemon = "ditto" }) {
-  // say(attackingPokemon) 74 pikachu
   let raidPokemonList = "";
   let myTeamPokemon = pokeType[attackingPokemon];
   let teraType = "normal";
@@ -187,7 +187,6 @@ function raidAttack({ attacker = pokeType[""], defender = pokeType[""] }) {
       damage[i] *= result;
     }
   }
-  // say(`results are ${Math.max(...damage)}`)
   return Math.max(...damage);
 }
 
@@ -202,20 +201,16 @@ function myAttack({ attacker = pokeType[""], defender = "" }) {
 
 function getHit({ type, compair }) {
   if (this[type.toLowerCase() + "Strong"].includes(compair)) {
-    say(`atk: ${type} Def: ${compair} Damage: x2`)
 
     return 2;
   }
   if (this[type.toLowerCase() + "Weak"].includes(compair)) {
-    say(`atk: ${type} Def: ${compair} Damage: x0.5`)
     return 0.5;
   }
   if (this[type.toLowerCase() + "Immune"].includes(compair)) {
-    say(`atk: ${type} Def: ${compair} Damage: immune`)
 
     return 0;
   }
-  say(`atk: ${type} Def: ${compair} Damage: "no change"`)
   return 1;
 }
 
