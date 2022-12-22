@@ -4572,23 +4572,23 @@ typeArray = [
   "fairy",
 ];
 
-normalStrong = ["fairy"];
+normalStrong = [""];
 fireStrong = ["grass", "ice", "bug", "steel"];
 waterStrong = ["fire", "ground", "rock"];
 grassStrong = ["water", "ground", "rock"];
 electricStrong = ["water", "flying"];
 iceStrong = ["grass", "ground", "flying", "dragon"];
 fightingStrong = ["normal", "ice", "rock", "dark", "steel"];
-poisonStrong = ["electric", "fairy"];
+poisonStrong = ["grass", "fairy"];
 groundStrong = ["fire", "electric", "poison", "rock", "steel"];
-flyingStrong = ["grass", "poison", "bug", "ground"];
+flyingStrong = ["grass", "fighting", "bug"];
 psychicStrong = ["fighting", "poison"];
 bugStrong = ["grass", "psychic", "dark"];
-rockStrong = ["normal", "fire", "fighting", "flying", "bug"];
+rockStrong = ["fire", "ice", "flying", "bug"];
 ghostStrong = ["psychic", "ghost"];
 darkStrong = ["psychic", "ghost"];
 dragonStrong = ["dragon"];
-steelStrong = ["normal", "rock", "fairy"];
+steelStrong = ["ice","rock", "fairy"];
 fairyStrong = ["fighting", "dark", "dragon"];
 
 normalWeak = ["rock", "steel"];
@@ -4602,13 +4602,35 @@ poisonWeak = ["poison", "ground", "rock", "ghost"];
 groundWeak = ["grass", "bug"];
 flyingWeak = ["electric", "rock", "steel"];
 psychicWeak = ["psychic", "steel"];
-bugWeak = ["fire", "fighting", "poison", "flying", "dragon", "steel", "fairy"];
+bugWeak = ["fire", "fighting", "poison", "flying", "ghost", "steel", "fairy"];
 rockWeak = ["fighting", "ground", "steel"];
 ghostWeak = ["dark"];
 dragonWeak = ["steel"];
 darkWeak = ["fighting", "dragon", "fairy"];
 steelWeak = ["fire", "water", "electric", "steel"];
 fairyWeak = ["fire", "poison", "steel"];
+
+
+// normalWeak = ["rock", "steel"];
+// fireWeak = ["fire", "water", "rock", "dragon"];
+// waterWeak = ["water", "grass", "dragon"];
+// grassWeak = ["fire", "grass", "poison", "flying", "bug", "dragon", "steel"];
+// electricWeak = ["grass", "electric", "dragon"];
+// iceWeak = ["fire", "water", "ice", "steel"];
+// fightingWeak = ["poison", "flying", "psychic", "bug", "fairy"];
+// poisonWeak = ["poison", "ground", "rock", "ghost"];
+// groundWeak = ["grass", "bug"];
+// flyingWeak = ["electric", "rock", "steel"];
+// psychicWeak = ["psychic", "steel"];
+// bugWeak = ["fire", "fighting", "poison", "flying", "dragon", "steel", "fairy"];
+// rockWeak = ["fighting", "ground", "steel"];
+// ghostWeak = ["dark"];
+// dragonWeak = ["steel"];
+// darkWeak = ["fighting", "dragon", "fairy"];
+// steelWeak = ["fire", "water", "electric", "steel"];
+// fairyWeak = ["fire", "poison", "steel"];
+
+
 
 normalImmune = ["ghost"];
 fireImmune = [];
