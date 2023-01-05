@@ -80,8 +80,8 @@ function runScript() {
     outputVarTeam[i].innerHTML ="Unable to find Pokemon, Please Check Spelling.";
     pokeIndex[i] = 0;
     myPokemon[i] = 0;
-    if (getPokemonExist(inputBoxTeam[i].value)) {
-      pokeIndex[i] = getPokemonExist(inputBoxTeam[i].value);
+    if (getPokemonExist(inputBoxTeam[i].value.toLowerCase())) {
+      pokeIndex[i] = getPokemonExist(inputBoxTeam[i].value.toLowerCase());
       myPokemon[i] = pokeName[pokeIndex[i]];
       outputVarTeam[i].innerHTML = "Pokemon Found!";
     }
@@ -90,7 +90,7 @@ function runScript() {
     }
   }
 
-  if (getPokemonExist(inputBoxRaidmon.value)) {
+  if (getPokemonExist(inputBoxRaidmon.value.toLowerCase())) {
     checkRaid = 1
     outputVarRaidmon.innerHTML = "Pokemon Found!";
   }
@@ -201,28 +201,28 @@ for (let difficulty = 0; difficulty <= avoid; difficulty++) {
 }
 
 //code to give a result is the user inputs a speciffic raid
-if(checkRaid && !(pokeRaid5Name.includes(inputBoxRaidmon.value)) && !(pokeRaid6Name.includes(inputBoxRaidmon.value))){
+if(checkRaid && !(pokeRaid5Name.includes(inputBoxRaidmon.value.toLowerCase())) && !(pokeRaid6Name.includes(inputBoxRaidmon.value.toLowerCase()))){
   checkRaid=0
   outputVarRaidmonInfo.innerHTML = "Entered raid pokemon is not valid"
 }
 
 if(checkRaid){
  if(raidStar == 5){
-    indexCheckHold = pokeRaid5Name.indexOf(inputBoxRaidmon.value)
+    indexCheckHold = pokeRaid5Name.indexOf(inputBoxRaidmon.value.toLowerCase())
     if(pokeRaid5Warning[indexCheckHold].length) {
       outputVarRaidmonInfo.innerHTML = `WARNING! ${titleCase(inputBoxRaidmon.value)} has:<br>${pokeRaid5Warning[indexCheckHold]}<br><br>`;
     }
   }
   
   if(raidStar == 6){
-    indexCheckHold = pokeRaid6Name.indexOf(inputBoxRaidmon.value)
+    indexCheckHold = pokeRaid6Name.indexOf(inputBoxRaidmon.value.toLowerCase())
     if(pokeRaid6Warning[indexCheckHold].length) {
       outputVarRaidmonInfo.innerHTML = `WARNING! ${titleCase(inputBoxRaidmon.value)} has:<br>${pokeRaid6Warning[indexCheckHold]}<br><br>`;
     }
   }
   for(let i=0;i<6;i++){
     if(pokeIndex[i]){
-      outputVarRaidmonInfo.innerHTML += `This should be ${judgeEncounter({raidmon:inputBoxRaidmon.value,party:i})} with ${titleCase(myPokemon[i])}<br><br>`
+      outputVarRaidmonInfo.innerHTML += `This should be ${judgeEncounter({raidmon:inputBoxRaidmon.value.toLowerCase(),party:i})} with ${titleCase(myPokemon[i])}<br><br>`
     }
   }
 }
