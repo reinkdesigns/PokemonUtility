@@ -16,3 +16,5 @@ window.onload = function(){
 
     })
 }
+
+console.log("this is a message from nav/navBar.js ... i am working")
