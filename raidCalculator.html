@@ -9,29 +9,25 @@
     <link rel="stylesheet" href="style/raidCalc.css" />
 
     <!--Navigation bar-->
+
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <!-- <div id="nav-placeholder"></div>
+    <div id="nav-placeholder"></div>
     <script>
-      $(function () {
-        $("#nav-placeholder").load("nav/navBar.html");
-      });
-    </script> -->
+        $(function () {
+          const loadNavScript = () => {
+            $.ajax({
+              url: "nav/navBar.js",
+              dataType: "script",
+            })
+              .done(() => console.log("Loaded navBar.js"))
+              .fail((_, error) =>
+                console.log("Failed to load navBar.js: \n\t" + error)
+              );
+          };
 
-    <div class="navContainer">
-      <link rel="stylesheet" href="nav/nav.css" />
-        <header>
-          <button class="hamburger">
-            <div class="bar"></div>
-          </button>
-        </header>
-            <nav class="hamburgerLinks">
-                <a href="index.html">Home</a>
-                <a href="raidCalculator.html">Raid Calculator</a>
-                <a href="https://www.patreon.com/user?u=24400331" target="_blank" >Patreon</a>
-            </nav>
-        </div>
-        <script src="nav/navBar.js"></script>
-
+          $("#nav-placeholder").load("nav/navBar.html", loadNavScript);
+        });
+    </script>
 
     <!--end of Navigation bar-->
   </head>
@@ -41,57 +37,89 @@
     <div style="font-size: 80px" id="output"></div>
 
     <div id="inputStyle">
-
       <div id="teamStyle">
-        <div>Enter atleast one pokemon<br>for your team.<br><br></div>
+        <div>Enter atleast one pokemon<br />for your team.<br /><br /></div>
         <div id="outputDivTeammon1">Enter Your Pokemon.</div>
-        <input id="inputDivTeammon1" type="text" onfocus="this.select();" value="Name..." />
-        <br><br>
+        <input
+          id="inputDivTeammon1"
+          type="text"
+          onfocus="this.select();"
+          value="Name..."
+        />
+        <br /><br />
         <div id="outputDivTeammon2">Enter Your Pokemon.</div>
-        <input id="inputDivTeammon2" type="text" onfocus="this.select();" value="Name..." />
-        <br><br>
+        <input
+          id="inputDivTeammon2"
+          type="text"
+          onfocus="this.select();"
+          value="Name..."
+        />
+        <br /><br />
         <div id="outputDivTeammon3">Enter Your Pokemon.</div>
-        <input id="inputDivTeammon3" type="text" onfocus="this.select();" value="Name..." />
-        <br><br>
+        <input
+          id="inputDivTeammon3"
+          type="text"
+          onfocus="this.select();"
+          value="Name..."
+        />
+        <br /><br />
         <div id="outputDivTeammon4">Enter Your Pokemon.</div>
-        <input id="inputDivTeammon4" type="text" onfocus="this.select();" value="Name..." />
-        <br><br>
+        <input
+          id="inputDivTeammon4"
+          type="text"
+          onfocus="this.select();"
+          value="Name..."
+        />
+        <br /><br />
         <div id="outputDivTeammon5">Enter Your Pokemon.</div>
-        <input id="inputDivTeammon5" type="text" onfocus="this.select();" value="Name..." />
-        <br><br>
+        <input
+          id="inputDivTeammon5"
+          type="text"
+          onfocus="this.select();"
+          value="Name..."
+        />
+        <br /><br />
         <div id="outputDivTeammon6">Enter Your Pokemon.</div>
-        <input id="inputDivTeammon6" type="text" onfocus="this.select();" value="Name..." />
+        <input
+          id="inputDivTeammon6"
+          type="text"
+          onfocus="this.select();"
+          value="Name..."
+        />
 
         <div id="raidStyle">
-          <br>
-          <div>This can be left blank<br>to display full list.</div>
-          <br>
+          <br />
+          <div>This can be left blank<br />to display full list.</div>
+          <br />
           <div id="outputDivRaidmon">Enter Raid Pokemon.</div>
-          <input id="inputDivRaidmon" type="text" onfocus="this.select();" value="Name..." />
-          <br>
+          <input
+            id="inputDivRaidmon"
+            type="text"
+            onfocus="this.select();"
+            value="Name..."
+          />
+          <br />
           <p>Select Raid Level.</p>
-          <input type="radio" id="raid5" name="raidLevel" value="5" checked>
-          <label for="html">Five Star</label><br>
-          <input type="radio" id="raid6" name="raidLevel" value="6">
-          <label for="css">Six Star</label><br>
+          <input type="radio" id="raid5" name="raidLevel" value="5" checked />
+          <label for="html">Five Star</label><br />
+          <input type="radio" id="raid6" name="raidLevel" value="6" />
+          <label for="css">Six Star</label><br />
         </div>
-        <br>
-        <br>
+        <br />
+        <br />
         <button id="inputBtn">Submit</button>
-    </div>
-    
-    <div id="f2">
-      <div id="selectedRaidOutput"></div>
-    </div>
+      </div>
 
-    <div id="outputInfo">
-      <div id="outputDivHeader"></div>
+      <div id="f2">
+        <div id="selectedRaidOutput"></div>
+      </div>
 
+      <div id="outputInfo">
+        <div id="outputDivHeader"></div>
+      </div>
     </div>
-
-  </div>
-    <br>
-    <br>
+    <br />
+    <br />
     <div id="outputDivType"></div>
 
     <script src="array/pokemon.js"></script>

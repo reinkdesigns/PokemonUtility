@@ -1,4 +1,3 @@
-window.onload = function(){
     window.addEventListener('scroll', function(e){
             document.querySelector("header").classList.remove("is-scrolling")
         if(window.pageYOffset>100){
@@ -15,6 +14,3 @@ window.onload = function(){
         menu_links.classList.toggle("is-active")
 
     })
-}
-
-console.log("this is a message from nav/navBar.js ... i am working")
