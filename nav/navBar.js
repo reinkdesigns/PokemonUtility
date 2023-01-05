@@ -1,3 +1,4 @@
+    (function(){
     window.addEventListener('scroll', function(e){
             document.querySelector("header").classList.remove("is-scrolling")
         if(window.pageYOffset>100){
@@ -14,3 +15,4 @@
         menu_links.classList.toggle("is-active")
 
     })
+})()
