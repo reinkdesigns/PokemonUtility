@@ -10,12 +10,29 @@
 
     <!--Navigation bar-->
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <div id="nav-placeholder"></div>
+    <!-- <div id="nav-placeholder"></div>
     <script>
       $(function () {
         $("#nav-placeholder").load("nav/navBar.html");
       });
-    </script>
+    </script> -->
+
+    <div class="navContainer">
+      <link rel="stylesheet" href="nav/nav.css" />
+        <header>
+          <button class="hamburger">
+            <div class="bar"></div>
+          </button>
+        </header>
+            <nav class="hamburgerLinks">
+                <a href="index.html">Home</a>
+                <a href="raidCalculator.html">Raid Calculator</a>
+                <a href="https://www.patreon.com/user?u=24400331" target="_blank" >Patreon</a>
+            </nav>
+        </div>
+        <script src="nav/navBar.js"></script>
+
+
     <!--end of Navigation bar-->
   </head>
 
