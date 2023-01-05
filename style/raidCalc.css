@@ -1,0 +1,46 @@
+h1{
+    color: rgb(255, 255, 255);
+}
+
+
+#inputStyle{
+    position: relative;
+    border: 3px solid #fff;
+    padding: 20px;
+    display: flex;
+    width: 90%;
+}
+#teamStyle{
+    color: burlywood;
+    flex:1
+}
+
+#raidStyle{
+    top:0;
+    color: white;
+    justify-content: center;
+    flex:1;
+}
+
+#inputBtn{
+    bottom: 20px;
+}
+
+/* 
+#inputStyle{
+    border: 3px solid #fff;
+    padding: 20px;
+    width: auto;
+    display: flex;
+} 
+*/
+
+#f2{
+    padding-left: 20px;
+    flex: 1;
+}
+
+#outputInfo{
+    padding-left: 20px;
+    flex:1;
+}

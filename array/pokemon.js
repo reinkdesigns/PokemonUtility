@@ -4,546 +4,565 @@ let raidPokemon5 = {
       name: "Raichu",
       type: ["electric", "steel"],
       meta: [""],
+      warning: ["Paralysis"],
     },
     {
       name: "Arcanine",
       type: ["fire", "dark", "normal"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Slowbro",
       type: ["water", "ghost", "psychic"],
       meta: [""],
+      warning: ["Sleep","Confusion","Curse"],
     },
     {
       name: "Cloyster",
       type: ["water", "ice", "normal"],
       meta: [""],
+      warning: ["Confusion"],
     },
     {
       name: "Gengar",
       type: ["ghost", "poison"],
       meta: [""],
+      warning: ["Sleep","Confusion"],
     },
     {
       name: "Scyther",
       type: ["flying", "bug", "normal"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Tauros(Fire)",
       type: ["fire", "normal", "fighting"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Tauros(Water)",
       type: ["water", "normal", "fighting"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Gyarados",
       type: ["water", "dragon", "dark", "flying"],
       meta: [""],
+      warning: ["Taunt","Confusion"],
     },
     // {
     //   name: "Ditto",
     //   type: ["ditto"],
     //   meta: [""],
+    //   warning: [],
     // },
     {
       name: "Eevee",
       type: ["normal", "ghost", "fighting"],
       meta: [""],
+      warning: ["Tera Blast","Sleep"],
     },
     {
       name: "Dragonite",
       type: ["dragon", "flying", "normal"],
       meta: [""],
+      warning: ["Confusion"],
     },
     {
       name: "Slowking",
       type: ["psychic", "water"],
       meta: [""],
+      warning: ["Sleep","Confusion"],
     },
     {
       name: "Scizor",
       type: ["bug", "steel", "grass", "normal"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Delibird",
       type: ["ice", "normal", "flying"],
       meta: [""],
+      warning: ["Freeze"],
     },
     {
       name: "Houndoom",
       type: ["dark", "fire"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Blissey",
       type: ["normal", "fairy", "fighting"],
       meta: [""],
+      warning: ["Sleep"],
     },
     {
       name: "Tyranitar",
       type: ["rock", "dark"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Gardevoir",
       type: ["psychic", "fairy"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Breloom",
       type: ["grass", "fighting", "normal"],
       meta: [""],
+      warning: ["Sleep"],
     },
     {
       name: "Slaking",
       type: ["ghost", "fairy", "normal"],
       meta: [""],
+      warning: ["Confusion"],
     },
     {
       name: "Hariyama",
       type: ["fighting", "water", "steel"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Sableye",
       type: ["dark", "ghost"],
       meta: [""],
+      warning: ["Confusion"],
     },
     {
       name: "Camerupt",
       type: ["ground", "fire"],
       meta: [""],
+      warning: ["Sleep"],
     },
     {
       name: "Altaria",
       type: ["flying", "dragon"],
       meta: [""],
+      warning: ["Sleep","Confusion"],
     },
     {
       name: "Glalie",
       type: ["ice", "dark", "normal"],
       meta: [""],
+      warning: ["Freeze"],
     },
     {
       name: "Salamence",
       type: ["dragon", "flying", "normal"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Staraptor",
       type: ["flying", "normal", "fighting"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Luxray",
       type: ["dark", "electric", "fighting"],
       meta: [""],
+      warning: ["Paralysis"],
     },
     {
       name: "Drifblim",
       type: ["flying", "ghost"],
       meta: [""],
+      warning: ["Paralysis"],
     },
     {
       name: "Mismagius",
       type: ["fire", "ghost"],
       meta: [""],
+      warning: ["Confusion"],
     },
     {
       name: "Honchkrow",
       type: ["dark", "flying"],
       meta: [""],
+      warning: ["Confusion"],
     },
     {
       name: "Bronzong",
       type: ["steel", "psychic", "dark"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Garchomp",
       type: ["dragon", "ground", "steel", "normal"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Hippowdon",
       type: ["rock", "ground", "normal"],
       meta: [""],
+      warning: ["Sleep"],
     },
     {
       name: "Abomasnow",
       type: ["ice", "grass"],
       meta: [""],
+      warning: ["Freeze"],
     },
     {
       name: "Weavile",
       type: ["dark", "ice"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Magnezone",
       type: ["steel", "electric"],
       meta: [""],
+      warning: ["Paralysis","Freeze"],
     },
     {
       name: "Gallade",
       type: ["psychic", "fighting", "bug", "ghost"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Froslass",
       type: ["ice", "ghost", "fairy"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Rotom",
       type: ["electric", "ghost", "normal"],
       meta: [""],
+      warning: ["Paralysis"],
     },
     {
       name: "Krookodile",
       type: ["ground", "dark", "normal"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Zoroark",
       type: ["dark", "normal"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Gothitelle",
       type: ["psychic", "electric"],
       meta: [""],
+      warning: ["Paralysis"],
     },
     {
       name: "Amoonguss",
       type: ["grass", "poison"],
       meta: [""],
+      warning: ["Sleep"],
     },
     {
       name: "Eelektross",
       type: ["fire", "electric", "normal"],
       meta: [""],
+      warning: ["Paralysis"],
     },
     {
       name: "Haxorus",
       type: ["dragon", "dark", "normal", "bug"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Braviary",
       type: ["flying", "normal", "fighting", "dark"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Hydreigon",
       type: ["dark", "dragon"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Volcarona",
       type: ["fire", "bug", "flying"],
       meta: [""],
+      warning: ["Confusion"],
     },
     {
       name: "Talonflame",
       type: ["fire", "steel", "flying"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Florger",
       type: ["grass", "fairy", "psychic"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Dragalge",
       type: ["dragon", "water", "poison"],
       meta: [""],
+      warning: ["Confusion"],
     },
     {
       name: "Clawitzer",
       type: ["water", "fighting", "dragon"],
       meta: [""],
+      warning: ["Confusion"],
     },
     {
       name: "Goodra",
       type: ["water", "poison", "dragon", "grass"],
       meta: [""],
+      warning: ["Confusion"],
     },
     {
       name: "Avalugg",
       type: ["dark", "ice", "normal"],
       meta: [""],
+      warning: ["Freeze"],
     },
     {
       name: "Noivern",
       type: ["flying", "dragon", "normal"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Mudsdale",
       type: ["fighting", "steel", "ground", "fighting"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Tsareena",
       type: ["grass", "normal", "fighting"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Oranguru",
       type: ["psychic", "normal"],
       meta: [""],
+      warning: ["Sleep"],
     },
     {
       name: "Passimian",
       type: ["fighting", "poison", "normal", "grass"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Mimikyu",
       type: ["fairy", "ghost"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Greedent",
       type: ["normal", "grass", "fighting"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Corviknight",
       type: ["flying", "steel", "fighting", "dark"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Coalossal",
       type: ["rock", "fire"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Flapple",
       type: ["dragon", "grass"],
       meta: [""],
+      warning: ["Paralysis"],
     },
     {
       name: "Appletun",
       type: ["dragon", "grass", "fighting"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Toxtricity",
       type: ["poison", "electric", "normal"],
       meta: [""],
+      warning: ["Paralysis"],
     },
     {
       name: "Polteageist",
       type: ["ghost", "grass", "normal"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Hatterena",
       type: ["psychic", "dark", "fairy"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Grimmsnarl",
       type: ["dark", "fairy"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Falinks",
       type: ["normal", "fighting", "bug"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Pincurchin",
       type: ["electric", "poison", "water"],
       meta: [""],
+      warning: ["Thunder"],
     },
     {
       name: "indeedee",
       type: ["psychic", "normal", "ghost"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Copperajah",
       type: ["normal", "ghost", "ground"],
       meta: [""],
+      warning: ["Curse"],
     },
     {
       name: "Dragapult",
       type: ["ghost", "dragon", "electric"],
       meta: [""],
+      warning: ["Paralysis"],
     },
     {
       name: "Pawmot",
       type: ["electric", "fighting"],
       meta: [""],
+      warning: ["Paralysis","Confusion"],
     },
     {
       name: "Arboliva",
       type: ["grass", "normal", "ground"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Garganacl",
       type: ["rock", "fighting"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Armarouge",
       type: ["ghost", "fire", "psychic"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Ceruledge",
       type: ["ghost", "fire", "psychic"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Mabosstiff",
       type: ["dark", "fairy", "normal"],
       meta: [""],
+      warning: ["Confusion"],
     },
     {
       name: "Brambleghast",
       type: ["grass", "ghost", "bug"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Tinkaton",
       type: ["fairy", "steel", "dark", "fighting"],
       meta: [""],
+      warning: ["Paralysis"],
     },
     {
       name: "Bombirdier",
       type: ["rock", "dark", "flying", "fighting"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Palafin",
       type: ["water", "flying", "normal"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Revavroom",
       type: ["poison", "fire", "steel"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Orthworm",
       type: ["ground", "steel", "normal"],
       meta: [""],
+      warning: [],
     },
     {
-      name: "Glimmora --------- (Tera Blast Normal/Poison/Rock)",
+      name: "Glimmora",
       type: ["poison", "rock", "normal"],
       meta: [""],
-    },
-    {
-      name: "Glimmora --------- (Tera Blast Fire)",
-      type: ["poison", "rock", "normal", "fire"],
-      meta: [""],
-    },
-    {
-      name: "Glimmora --------- (Tera Blast Water)",
-      type: ["poison", "rock", "normal", "water"],
-      meta: [""],
-    },
-    {
-      name: "Glimmora --------- (Tera Blast Grass)",
-      type: ["poison", "rock", "normal", "grass"],
-      meta: [""],
-    },
-    {
-      name: "Glimmora --------- (Tera Blast Electric)",
-      type: ["poison", "rock", "normal", "electric"],
-      meta: [""],
-    },
-    {
-      name: "Glimmora --------- (Tera Blast Ice)",
-      type: ["poison", "rock", "normal", "ice"],
-      meta: [""],
-    },
-    {
-      name: "Glimmora --------- (Tera Blast Fighting)",
-      type: ["poison", "rock", "normal", "fighting"],
-      meta: [""],
-    },
-    {
-      name: "Glimmora --------- (Tera Blast Ground)",
-      type: ["poison", "rock", "normal", "ground"],
-      meta: [""],
-    },
-    {
-      name: "Glimmora --------- (Tera Blast Flying)",
-      type: ["poison", "rock", "normal", "flying"],
-      meta: [""],
-    },
-    {
-      name: "Glimmora --------- (Tera Blast Psychic)",
-      type: ["poison", "rock", "normal", "psychic"],
-      meta: [""],
-    },
-    {
-      name: "Glimmora --------- (Tera Blast Bug)",
-      type: ["poison", "rock", "normal", "bug"],
-      meta: [""],
-    },
-    {
-      name: "Glimmora --------- (Tera Blast Ghost)",
-      type: ["poison", "rock", "normal", "ghost"],
-      meta: [""],
-    },
-    {
-      name: "Glimmora --------- (Tera Blast Dark)",
-      type: ["poison", "rock", "normal", "dark"],
-      meta: [""],
-    },
-    {
-      name: "Glimmora --------- (Tera Blast Dragon)",
-      type: ["poison", "rock", "normal", "dragon"],
-      meta: [""],
-    },
-    {
-      name: "Glimmora --------- (Tera Blast Steel)",
-      type: ["poison", "rock", "normal", "steel"],
-      meta: [""],
-    },
-    {
-      name: "Glimmora --------- (Tera Blast Fairy)",
-      type: ["poison", "rock", "normal", "fairy"],
-      meta: [""],
+      warning: ["Tera Blast"],
     },
     {
       name: "Cetitan",
       type: ["ice", "water"],
       meta: [""],
+      warning: ["Sleep"],
     },
     {
       name: "Tatsugiri",
       type: ["water", "dragon", "normal"],
       meta: [""],
+      warning: ["Confusion"],
     },
     {
       name: "Annihilape",
       type: ["ghost", "fighting", "dragon"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Kingambit",
       type: ["dark", "steel"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Baxcalibur",
       type: ["ice", "dragon", "fighting"],
       meta: [""],
+      warning: [],
     },
   ],
 };
@@ -555,1153 +574,417 @@ let raidPokemon6 = {
       name: "Gengar",
       type: ["ghost", "poison", "fairy"],
       meta: [""],
+      warning: ["Sleep"],
     },
     {
       name: "Tauros(Fighting)",
       type: ["fire", "normal", "fighting"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Tauros(Fire)",
       type: ["fire", "normal", "fighting"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Tauros(Water)",
       type: ["water", "normal", "fighting"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Gyarados",
       type: ["water", "ice", "dark", "flying"],
       meta: [""],
+      warning: ["Confusion","Freeze"],
     },
     // {
     //   name: "Ditto",
     //   type: ["ditto"],
     //   meta: [""],
+    //warning: [],
     // },
     {
-      name: "Vaporeon --------- (Tera Blast Normal/Water)",
+      name: "Vaporeon",
       type: ["water", "normal"],
       meta: [""],
+      warning: ["Tera Blast","Sleep"],
     },
     {
-      name: "Vaporeon --------- (Tera Blast Fire)",
-      type: ["water", "normal", "fire"],
-      meta: [""],
-    },
-    {
-      name: "Vaporeon --------- (Tera Blast Grass)",
-      type: ["water", "normal", "grass"],
-      meta: [""],
-    },
-    {
-      name: "Vaporeon --------- (Tera Blast Electric)",
-      type: ["water", "normal", "electric"],
-      meta: [""],
-    },
-    {
-      name: "Vaporeon --------- (Tera Blast Ice)",
-      type: ["water", "normal", "ice"],
-      meta: [""],
-    },
-    {
-      name: "Vaporeon --------- (Tera Blast Fighting)",
-      type: ["water", "normal", "fighting"],
-      meta: [""],
-    },
-    {
-      name: "Vaporeon --------- (Tera Blast Poison)",
-      type: ["water", "normal", "poison"],
-      meta: [""],
-    },
-    {
-      name: "Vaporeon --------- (Tera Blast Ground)",
-      type: ["water", "normal", "ground"],
-      meta: [""],
-    },
-    {
-      name: "Vaporeon --------- (Tera Blast Flying)",
-      type: ["water", "normal", "flying"],
-      meta: [""],
-    },
-    {
-      name: "Vaporeon --------- (Tera Blast Psychic)",
-      type: ["water", "normal", "psychic"],
-      meta: [""],
-    },
-    {
-      name: "Vaporeon --------- (Tera Blast Bug)",
-      type: ["water", "normal", "bug"],
-      meta: [""],
-    },
-    {
-      name: "Vaporeon --------- (Tera Blast Rock)",
-      type: ["water", "normal", "rock"],
-      meta: [""],
-    },
-    {
-      name: "Vaporeon --------- (Tera Blast Ghost)",
-      type: ["water", "normal", "ghost"],
-      meta: [""],
-    },
-    {
-      name: "Vaporeon --------- (Tera Blast Dark)",
-      type: ["water", "normal", "dark"],
-      meta: [""],
-    },
-    {
-      name: "Vaporeon --------- (Tera Blast Dragon)",
-      type: ["water", "normal", "dragon"],
-      meta: [""],
-    },
-    {
-      name: "Vaporeon --------- (Tera Blast Steel)",
-      type: ["water", "normal", "steel"],
-      meta: [""],
-    },
-    {
-      name: "Vaporeon --------- (Tera Blast Fairy)",
-      type: ["water", "normal", "fairy"],
-      meta: [""],
-    },
-    {
-      name: "Jolteon --------- (Tera Blast Electric/Ghost)",
+      name: "Jolteon",
       type: ["electric", "ghost"],
       meta: [""],
+      warning: ["Tera Blast","Paralysis"],
     },
     {
-      name: "Jolteon --------- (Tera Blast Normal)",
-      type: ["electric", "ghost", "normal"],
-      meta: [""],
-    },
-    {
-      name: "Jolteon --------- (Tera Blast Fire)",
-      type: ["electric", "ghost", "fire"],
-      meta: [""],
-    },
-    {
-      name: "Jolteon --------- (Tera Blast Water)",
-      type: ["electric", "ghost", "water"],
-      meta: [""],
-    },
-    {
-      name: "Jolteon --------- (Tera Blast Grass)",
-      type: ["electric", "ghost", "grass"],
-      meta: [""],
-    },
-    {
-      name: "Jolteon --------- (Tera Blast Ice)",
-      type: ["electric", "ghost", "ice"],
-      meta: [""],
-    },
-    {
-      name: "Jolteon --------- (Tera Blast Fighting)",
-      type: ["electric", "ghost", "fighting"],
-      meta: [""],
-    },
-    {
-      name: "Jolteon --------- (Tera Blast Poison)",
-      type: ["electric", "ghost", "poison"],
-      meta: [""],
-    },
-    {
-      name: "Jolteon --------- (Tera Blast Ground)",
-      type: ["electric", "ghost", "ground"],
-      meta: [""],
-    },
-    {
-      name: "Jolteon --------- (Tera Blast Flying)",
-      type: ["electric", "ghost", "flying"],
-      meta: [""],
-    },
-    {
-      name: "Jolteon --------- (Tera Blast Psychic)",
-      type: ["electric", "ghost", "psychic"],
-      meta: [""],
-    },
-    {
-      name: "Jolteon --------- (Tera Blast Bug)",
-      type: ["electric", "ghost", "bug"],
-      meta: [""],
-    },
-    {
-      name: "Jolteon --------- (Tera Blast Rock)",
-      type: ["electric", "ghost", "rock"],
-      meta: [""],
-    },
-    {
-      name: "Jolteon --------- (Tera Blast Dark)",
-      type: ["electric", "ghost", "dark"],
-      meta: [""],
-    },
-    {
-      name: "Jolteon --------- (Tera Blast Dragon)",
-      type: ["electric", "ghost", "dragon"],
-      meta: [""],
-    },
-    {
-      name: "Jolteon --------- (Tera Blast Steel)",
-      type: ["electric", "ghost", "steel"],
-      meta: [""],
-    },
-    {
-      name: "Jolteon --------- (Tera Blast Fairy)",
-      type: ["electric", "ghost", "fairy"],
-      meta: [""],
-    },
-    {
-      name: "Flareon --------- (Tera Blast Fire/Ghost)",
+      name: "Flareon",
       type: ["fire", "ghost"],
       meta: [""],
+      warning: ["Tera Blast","Curse"],
     },
     {
-      name: "Flareon --------- (Tera Blast Normal)",
-      type: ["fire", "ghost", "normal"],
-      meta: [""],
-    },
-    {
-      name: "Flareon --------- (Tera Blast Water)",
-      type: ["fire", "ghost", "water"],
-      meta: [""],
-    },
-    {
-      name: "Flareon --------- (Tera Blast Grass)",
-      type: ["fire", "ghost", "grass"],
-      meta: [""],
-    },
-    {
-      name: "Flareon --------- (Tera Blast Electric)",
-      type: ["fire", "ghost", "electric"],
-      meta: [""],
-    },
-    {
-      name: "Flareon --------- (Tera Blast Ice)",
-      type: ["fire", "ghost", "ice"],
-      meta: [""],
-    },
-    {
-      name: "Flareon --------- (Tera Blast Fighting)",
-      type: ["fire", "ghost", "fighting"],
-      meta: [""],
-    },
-    {
-      name: "Flareon --------- (Tera Blast Poison)",
-      type: ["fire", "ghost", "poison"],
-      meta: [""],
-    },
-    {
-      name: "Flareon --------- (Tera Blast Ground)",
-      type: ["fire", "ghost", "ground"],
-      meta: [""],
-    },
-    {
-      name: "Flareon --------- (Tera Blast Flying)",
-      type: ["fire", "ghost", "flying"],
-      meta: [""],
-    },
-    {
-      name: "Flareon --------- (Tera Blast Psychic)",
-      type: ["fire", "ghost", "psychic"],
-      meta: [""],
-    },
-    {
-      name: "Flareon --------- (Tera Blast Bug)",
-      type: ["fire", "ghost", "bug"],
-      meta: [""],
-    },
-    {
-      name: "Flareon --------- (Tera Blast Rock)",
-      type: ["fire", "ghost", "rock"],
-      meta: [""],
-    },
-    {
-      name: "Flareon --------- (Tera Blast Dark)",
-      type: ["fire", "ghost", "dark"],
-      meta: [""],
-    },
-    {
-      name: "Flareon --------- (Tera Blast Dragon)",
-      type: ["fire", "ghost", "dragon"],
-      meta: [""],
-    },
-    {
-      name: "Flareon --------- (Tera Blast Steel)",
-      type: ["fire", "ghost", "steel"],
-      meta: [""],
-    },
-    {
-      name: "Flareon --------- (Tera Blast Fairy)",
-      type: ["fire", "ghost", "fairy"],
-      meta: [""],
-    },
-    {
-      name: "Espeon --------- (Tera Blast Psychic)",
-      type: ["psychic"],
-      meta: [""],
-    },
-    {
-      name: "Espeon --------- (Tera Blast Normal)",
-      type: ["psychic", "normal"],
-      meta: [""],
-    },
-    {
-      name: "Espeon --------- (Tera Blast Fire)",
-      type: ["psychic", "fire"],
-      meta: [""],
-    },
-    {
-      name: "Espeon --------- (Tera Blast Water)",
-      type: ["psychic", "water"],
-      meta: [""],
-    },
-    {
-      name: "Espeon --------- (Tera Blast Grass)",
-      type: ["psychic", "grass"],
-      meta: [""],
-    },
-    {
-      name: "Espeon --------- (Tera Blast Electric)",
-      type: ["psychic", "electric"],
-      meta: [""],
-    },
-    {
-      name: "Espeon --------- (Tera Blast Ice)",
-      type: ["psychic", "ice"],
-      meta: [""],
-    },
-    {
-      name: "Espeon --------- (Tera Blast Fighting)",
-      type: ["psychic", "fighting"],
-      meta: [""],
-    },
-    {
-      name: "Espeon --------- (Tera Blast Poison)",
-      type: ["psychic", "poison"],
-      meta: [""],
-    },
-    {
-      name: "Espeon --------- (Tera Blast Ground)",
-      type: ["psychic", "ground"],
-      meta: [""],
-    },
-    {
-      name: "Espeon --------- (Tera Blast Flying)",
-      type: ["psychic", "flying"],
-      meta: [""],
-    },
-    {
-      name: "Espeon --------- (Tera Blast Bug)",
-      type: ["psychic", "bug"],
-      meta: [""],
-    },
-    {
-      name: "Espeon --------- (Tera Blast Rock)",
-      type: ["psychic", "rock"],
-      meta: [""],
-    },
-    {
-      name: "Espeon --------- (Tera Blast Ghost)",
-      type: ["psychic", "ghost"],
-      meta: [""],
-    },
-    {
-      name: "Espeon --------- (Tera Blast Dark)",
-      type: ["psychic", "dark"],
-      meta: [""],
-    },
-    {
-      name: "Espeon --------- (Tera Blast Dragon)",
-      type: ["psychic", "dragon"],
-      meta: [""],
-    },
-    {
-      name: "Espeon --------- (Tera Blast Steel)",
-      type: ["psychic", "steel"],
-      meta: [""],
-    },
-    {
-      name: "Espeon --------- (Tera Blast Fairy)",
-      type: ["psychic", "fairy"],
-      meta: [""],
-    },
-    {
-      name: "Umbreon --------- (Tera Blast Dark/Ghost)",
+      name: "Umbreon",
       type: ["dark", "ghost"],
       meta: [""],
+      warning: ["Tera Blast","Curse"],
     },
     {
-      name: "Umbreon --------- (Tera Blast Normal)",
-      type: ["dark", "ghost", "normal"],
-      meta: [""],
-    },
-    {
-      name: "Umbreon --------- (Tera Blast Fire)",
-      type: ["dark", "ghost", "fire"],
-      meta: [""],
-    },
-    {
-      name: "Umbreon --------- (Tera Blast Water)",
-      type: ["dark", "ghost", "water"],
-      meta: [""],
-    },
-    {
-      name: "Umbreon --------- (Tera Blast Grass)",
-      type: ["dark", "ghost", "grass"],
-      meta: [""],
-    },
-    {
-      name: "Umbreon --------- (Tera Blast Electric)",
-      type: ["dark", "ghost", "electric"],
-      meta: [""],
-    },
-    {
-      name: "Umbreon --------- (Tera Blast Ice)",
-      type: ["dark", "ghost", "ice"],
-      meta: [""],
-    },
-    {
-      name: "Umbreon --------- (Tera Blast Fighting)",
-      type: ["dark", "ghost", "fighting"],
-      meta: [""],
-    },
-    {
-      name: "Umbreon --------- (Tera Blast Poison)",
-      type: ["dark", "ghost", "poison"],
-      meta: [""],
-    },
-    {
-      name: "Umbreon --------- (Tera Blast Ground)",
-      type: ["dark", "ghost", "ground"],
-      meta: [""],
-    },
-    {
-      name: "Umbreon --------- (Tera Blast Flying)",
-      type: ["dark", "ghost", "flying"],
-      meta: [""],
-    },
-    {
-      name: "Umbreon --------- (Tera Blast Psychic)",
-      type: ["dark", "ghost", "psychic"],
-      meta: [""],
-    },
-    {
-      name: "Umbreon --------- (Tera Blast Bug)",
-      type: ["dark", "ghost", "bug"],
-      meta: [""],
-    },
-    {
-      name: "Umbreon --------- (Tera Blast Rock)",
-      type: ["dark", "ghost", "rock"],
-      meta: [""],
-    },
-    {
-      name: "Umbreon --------- (Tera Blast Dragon)",
-      type: ["dark", "ghost", "dragon"],
-      meta: [""],
-    },
-    {
-      name: "Umbreon --------- (Tera Blast Steel)",
-      type: ["dark", "ghost", "steel"],
-      meta: [""],
-    },
-    {
-      name: "Umbreon --------- (Tera Blast Fairy)",
-      type: ["dark", "ghost", "fairy"],
-      meta: [""],
-    },
-    {
-      name: "Leafeon --------- (Tera Blast Grass/Fighting)",
+      name: "Leafeon",
       type: ["grass", "fighting"],
       meta: [""],
+      warning: ["Tera Blast"],
     },
     {
-      name: "Leafeon --------- (Tera Blast Normal)",
-      type: ["grass", "fighting", "normal"],
-      meta: [""],
-    },
-    {
-      name: "Leafeon --------- (Tera Blast Fire)",
-      type: ["grass", "fighting", "fire"],
-      meta: [""],
-    },
-    {
-      name: "Leafeon --------- (Tera Blast Water)",
-      type: ["grass", "fighting", "water"],
-      meta: [""],
-    },
-    {
-      name: "Leafeon --------- (Tera Blast Electric)",
-      type: ["grass", "fighting", "electric"],
-      meta: [""],
-    },
-    {
-      name: "Leafeon --------- (Tera Blast Ice)",
-      type: ["grass", "fighting", "ice"],
-      meta: [""],
-    },
-    {
-      name: "Leafeon --------- (Tera Blast Poison)",
-      type: ["grass", "fighting", "poison"],
-      meta: [""],
-    },
-    {
-      name: "Leafeon --------- (Tera Blast Ground)",
-      type: ["grass", "fighting", "ground"],
-      meta: [""],
-    },
-    {
-      name: "Leafeon --------- (Tera Blast Flying)",
-      type: ["grass", "fighting", "flying"],
-      meta: [""],
-    },
-    {
-      name: "Leafeon --------- (Tera Blast Psychic)",
-      type: ["grass", "fighting", "psychic"],
-      meta: [""],
-    },
-    {
-      name: "Leafeon --------- (Tera Blast Bug)",
-      type: ["grass", "fighting", "bug"],
-      meta: [""],
-    },
-    {
-      name: "Leafeon --------- (Tera Blast Rock)",
-      type: ["grass", "fighting", "rock"],
-      meta: [""],
-    },
-    {
-      name: "Leafeon --------- (Tera Blast Ghost)",
-      type: ["grass", "fighting", "ghost"],
-      meta: [""],
-    },
-    {
-      name: "Leafeon --------- (Tera Blast Dark)",
-      type: ["grass", "fighting", "dark"],
-      meta: [""],
-    },
-    {
-      name: "Leafeon --------- (Tera Blast Dragon)",
-      type: ["grass", "fighting", "dragon"],
-      meta: [""],
-    },
-    {
-      name: "Leafeon --------- (Tera Blast Steel)",
-      type: ["grass", "fighting", "steel"],
-      meta: [""],
-    },
-    {
-      name: "Leafeon --------- (Tera Blast Fairy)",
-      type: ["grass", "fighting", "fairy"],
-      meta: [""],
-    },
-    {
-      name: "Glaceon --------- (Tera Blast Ice/Ghost)",
+      name: "Glaceon",
       type: ["ice", "ghost"],
       meta: [""],
-    },
-    {
-      name: "Glaceon --------- (Tera Blast Normal)",
-      type: ["ice", "ghost", "normal"],
-      meta: [""],
-    },
-    {
-      name: "Glaceon --------- (Tera Blast Fire)",
-      type: ["ice", "ghost", "fire"],
-      meta: [""],
-    },
-    {
-      name: "Glaceon --------- (Tera Blast Water)",
-      type: ["ice", "ghost", "water"],
-      meta: [""],
-    },
-    {
-      name: "Glaceon --------- (Tera Blast Grass)",
-      type: ["ice", "ghost", "grass"],
-      meta: [""],
-    },
-    {
-      name: "Glaceon --------- (Tera Blast Electric)",
-      type: ["ice", "ghost", "electric"],
-      meta: [""],
-    },
-    {
-      name: "Glaceon --------- (Tera Blast Fighting)",
-      type: ["ice", "ghost", "fighting"],
-      meta: [""],
-    },
-    {
-      name: "Glaceon --------- (Tera Blast Poison)",
-      type: ["ice", "ghost", "poison"],
-      meta: [""],
-    },
-    {
-      name: "Glaceon --------- (Tera Blast Ground)",
-      type: ["ice", "ghost", "ground"],
-      meta: [""],
-    },
-    {
-      name: "Glaceon --------- (Tera Blast Flying)",
-      type: ["ice", "ghost", "flying"],
-      meta: [""],
-    },
-    {
-      name: "Glaceon --------- (Tera Blast Psychic)",
-      type: ["ice", "ghost", "psychic"],
-      meta: [""],
-    },
-    {
-      name: "Glaceon --------- (Tera Blast Bug)",
-      type: ["ice", "ghost", "bug"],
-      meta: [""],
-    },
-    {
-      name: "Glaceon --------- (Tera Blast Rock)",
-      type: ["ice", "ghost", "rock"],
-      meta: [""],
-    },
-    {
-      name: "Glaceon --------- (Tera Blast Dark)",
-      type: ["ice", "ghost", "dark"],
-      meta: [""],
-    },
-    {
-      name: "Glaceon --------- (Tera Blast Dragon)",
-      type: ["ice", "ghost", "dragon"],
-      meta: [""],
-    },
-    {
-      name: "Glaceon --------- (Tera Blast Steel)",
-      type: ["ice", "ghost", "steel"],
-      meta: [""],
-    },
-    {
-      name: "Glaceon --------- (Tera Blast Fairy)",
-      type: ["ice", "ghost", "fairy"],
-      meta: [""],
+      warning: ["Tera Blast","Blizzard"],
     },
     {
       name: "Sylveon",
       type: ["fairy", "normal"],
       meta: [""],
-    },
-    {
-      name: "Sylveon --------- (Tera Blast Fire)",
-      type: ["fairy", "normal", "fire"],
-      meta: [""],
-    },
-    {
-      name: "Sylveon --------- (Tera Blast Water)",
-      type: ["fairy", "normal", "water"],
-      meta: [""],
-    },
-    {
-      name: "Sylveon --------- (Tera Blast Grass)",
-      type: ["fairy", "normal", "grass"],
-      meta: [""],
-    },
-    {
-      name: "Sylveon --------- (Tera Blast Electric)",
-      type: ["fairy", "normal", "electric"],
-      meta: [""],
-    },
-    {
-      name: "Sylveon --------- (Tera Blast Ice)",
-      type: ["fairy", "normal", "ice"],
-      meta: [""],
-    },
-    {
-      name: "Sylveon --------- (Tera Blast Fighting)",
-      type: ["fairy", "normal", "fighting"],
-      meta: [""],
-    },
-    {
-      name: "Sylveon --------- (Tera Blast Poison)",
-      type: ["fairy", "normal", "poison"],
-      meta: [""],
-    },
-    {
-      name: "Sylveon --------- (Tera Blast Ground)",
-      type: ["fairy", "normal", "ground"],
-      meta: [""],
-    },
-    {
-      name: "Sylveon --------- (Tera Blast Flying)",
-      type: ["fairy", "normal", "flying"],
-      meta: [""],
-    },
-    {
-      name: "Sylveon --------- (Tera Blast Psychic)",
-      type: ["fairy", "normal", "psychic"],
-      meta: [""],
-    },
-    {
-      name: "Sylveon --------- (Tera Blast Bug)",
-      type: ["fairy", "normal", "bug"],
-      meta: [""],
-    },
-    {
-      name: "Sylveon --------- (Tera Blast Rock)",
-      type: ["fairy", "normal", "rock"],
-      meta: [""],
-    },
-    {
-      name: "Sylveon --------- (Tera Blast Ghost)",
-      type: ["fairy", "normal", "ghost"],
-      meta: [""],
-    },
-    {
-      name: "Sylveon --------- (Tera Blast Dark)",
-      type: ["fairy", "normal", "dark"],
-      meta: [""],
-    },
-    {
-      name: "Sylveon --------- (Tera Blast Dragon)",
-      type: ["fairy", "normal", "dragon"],
-      meta: [""],
-    },
-    {
-      name: "Sylveon --------- (Tera Blast Steel)",
-      type: ["fairy", "normal", "steel"],
-      meta: [""],
+      warning: ["Tera Blast","Sleep"],
     },
 
     {
       name: "Dragonite",
       type: ["dragon", "water", "normal"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Slowking",
       type: ["psychic", "water", "fire"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Scizor",
       type: ["bug", "fighting", "grass", "steel"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Heracross",
       type: ["bug", "fighting", "normal"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Blissey",
       type: ["normal", "fairy"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Tyranitar",
       type: ["rock", "dark"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Pelipper",
       type: ["flying", "water"],
       meta: [""],
+      warning: ["Confusion"],
     },
     {
       name: "Gardevoir",
       type: ["psychic", "fairy"],
       meta: [""],
+      warning: ["Paralysis"],
     },
     {
       name: "Breloom",
       type: ["grass", "fighting", "flying"],
       meta: [""],
+      warning: ["Sleep"],
     },
     {
       name: "Torkoal",
       type: ["fire", "normal"],
       meta: [""],
+      warning: ["Sleep"],
     },
     {
-      name: "Salamence --------- (Tera Blast Fire/Flying)",
+      name: "Salamence",
       type: ["dragon", "flying", "fire"],
       meta: [""],
-    },
-    {
-      name: "Salamence --------- (Tera Blast Normal)",
-      type: ["dragon", "flying", "fire", "normal"],
-      meta: [""],
-    },
-    {
-      name: "Salamence --------- (Tera Blast Water)",
-      type: ["dragon", "flying", "fire", "water"],
-      meta: [""],
-    },
-    {
-      name: "Salamence --------- (Tera Blast Grass)",
-      type: ["dragon", "flying", "fire", "grass"],
-      meta: [""],
-    },
-    {
-      name: "Salamence --------- (Tera Blast Electric)",
-      type: ["dragon", "flying", "fire", "electric"],
-      meta: [""],
-    },
-    {
-      name: "Salamence --------- (Tera Blast Ice)",
-      type: ["dragon", "flying", "fire", "ice"],
-      meta: [""],
-    },
-    {
-      name: "Salamence --------- (Tera Blast Fighting)",
-      type: ["dragon", "flying", "fire", "fighting"],
-      meta: [""],
-    },
-    {
-      name: "Salamence --------- (Tera Blast Poison)",
-      type: ["dragon", "flying", "fire", "poison"],
-      meta: [""],
-    },
-    {
-      name: "Salamence --------- (Tera Blast Ground)",
-      type: ["dragon", "flying", "fire", "ground"],
-      meta: [""],
-    },
-    {
-      name: "Salamence --------- (Tera Blast Psychic)",
-      type: ["dragon", "flying", "fire", "psychic"],
-      meta: [""],
-    },
-    {
-      name: "Salamence --------- (Tera Blast Bug)",
-      type: ["dragon", "flying", "fire", "bug"],
-      meta: [""],
-    },
-    {
-      name: "Salamence --------- (Tera Blast Rock)",
-      type: ["dragon", "flying", "fire", "rock"],
-      meta: [""],
-    },
-    {
-      name: "Salamence --------- (Tera Blast Ghost)",
-      type: ["dragon", "flying", "fire", "ghost"],
-      meta: [""],
-    },
-    {
-      name: "Salamence --------- (Tera Blast Dark)",
-      type: ["dragon", "flying", "fire", "dark"],
-      meta: [""],
-    },
-    {
-      name: "Salamence --------- (Tera Blast Steel)",
-      type: ["dragon", "flying", "fire", "steel"],
-      meta: [""],
-    },
-    {
-      name: "Salamence --------- (Tera Blast Fairy)",
-      type: ["dragon", "flying", "fire", "fairy"],
-      meta: [""],
+      warning: ["Tera Blast"],
     },
     {
       name: "Staraptor",
       type: ["flying", "normal", "fighting"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Garchomp",
       type: ["dragon", "ground", "rock", "fire"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Hippowdon",
       type: ["rock", "ground", "ice"],
       meta: [""],
+      warning: ["Sleep","Freeze"],
     },
     {
       name: "Magnezone",
       type: ["steel", "electric", "normal"],
       meta: [""],
+      warning: ["Paralysis","Freeze"],
     },
     {
       name: "Gallade",
       type: ["psychic", "fighting", "flying"],
       meta: [""],
+      warning: ["Sleep"],
     },
     {
       name: "Amoonguss",
       type: ["grass", "poison", "dark"],
       meta: [""],
+      warning: ["Sleep"],
     },
     {
       name: "Haxorus",
       type: ["dragon", "dark", "normal", "bug"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Hydreigon",
       type: ["dark", "dragon"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Volcarona",
       type: ["fire", "bug", "flying"],
       meta: [""],
+      warning: ["Confusion"],
     },
     {
-      name: "Talonflame --------- (Tera Blast Fire/Flying)",
+      name: "Talonflame",
       type: ["fire", "flying"],
       meta: [""],
-    },
-    {
-      name: "Talonflame --------- (Tera Blast Normal)",
-      type: ["fire", "flying", "normal"],
-      meta: [""],
-    },
-    {
-      name: "Talonflame --------- (Tera Blast Water)",
-      type: ["fire", "flying", "water"],
-      meta: [""],
-    },
-    {
-      name: "Talonflame --------- (Tera Blast Grass)",
-      type: ["fire", "flying", "grass"],
-      meta: [""],
-    },
-    {
-      name: "Talonflame --------- (Tera Blast Electric)",
-      type: ["fire", "flying", "electric"],
-      meta: [""],
-    },
-    {
-      name: "Talonflame --------- (Tera Blast Ice)",
-      type: ["fire", "flying", "ice"],
-      meta: [""],
-    },
-    {
-      name: "Talonflame --------- (Tera Blast Fighting)",
-      type: ["fire", "flying", "fighting"],
-      meta: [""],
-    },
-    {
-      name: "Talonflame --------- (Tera Blast Poison)",
-      type: ["fire", "flying", "poison"],
-      meta: [""],
-    },
-    {
-      name: "Talonflame --------- (Tera Blast Ground)",
-      type: ["fire", "flying", "ground"],
-      meta: [""],
-    },
-    {
-      name: "Talonflame --------- (Tera Blast Psychic)",
-      type: ["fire", "flying", "psychic"],
-      meta: [""],
-    },
-    {
-      name: "Talonflame --------- (Tera Blast Bug)",
-      type: ["fire", "flying", "bug"],
-      meta: [""],
-    },
-    {
-      name: "Talonflame --------- (Tera Blast Rock)",
-      type: ["fire", "flying", "rock"],
-      meta: [""],
-    },
-    {
-      name: "Talonflame --------- (Tera Blast Ghost)",
-      type: ["fire", "flying", "ghost"],
-      meta: [""],
-    },
-    {
-      name: "Talonflame --------- (Tera Blast Dark)",
-      type: ["fire", "flying", "dark"],
-      meta: [""],
-    },
-    {
-      name: "Talonflame --------- (Tera Blast Dragon)",
-      type: ["fire", "flying", "dragon"],
-      meta: [""],
-    },
-    {
-      name: "Talonflame --------- (Tera Blast Steel)",
-      type: ["fire", "flying", "steel"],
-      meta: [""],
-    },
-    {
-      name: "Talonflame --------- (Tera Blast Fairy)",
-      type: ["fire", "flying", "fairy"],
-      meta: [""],
+      warning: ["Tera Blast"],
     },
     {
       name: "Dragalge",
       type: ["dragon", "water", "poison"],
       meta: [""],
+      warning: ["Confusion"],
     },
     {
       name: "Clawitzer",
       type: ["water", "fighting", "dragon"],
       meta: [""],
+      warning: ["Confusion"],
     },
     {
       name: "Goodra",
       type: ["water", "poison", "dragon", "grass"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Avalugg",
       type: ["steel", "ice", "normal"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Lycanroc",
       type: ["rock", "dark"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Toxapex",
       type: ["water", "poison"],
       meta: [""],
+      warning: ["Confusion"],
     },
     {
       name: "Mimikyu",
       type: ["fairy", "ghost", "grass"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Corviknight",
       type: ["flying", "steel", "fighting", "dark"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Pincurchin",
       type: ["electric", "poison", "water"],
       meta: [""],
+      warning: ["Paralysis"],
     },
     {
       name: "Frosmoth",
       type: ["ice", "bug", "flying"],
       meta: [""],
+      warning: ["Confusion","Blizzard"],
     },
     {
       name: "Dragapult",
       type: ["ghost", "dragon", "electric", "fire"],
       meta: [""],
+      warning: ["Paralysis"],
     },
     {
       name: "Pawmot",
       type: ["electric", "fighting"],
       meta: [""],
+      warning: ["Paralysis"],
     },
     {
       name: "moushold",
       type: ["fairy", "normal", "fighting"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Dachsbun",
       type: ["fairy", "normal", "dark"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Garganacl",
       type: ["rock", "fighting", "steel"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Armarouge",
       type: ["ghost", "fire", "psychic"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Ceruledge",
       type: ["ghost", "fire", "psychic"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Kilowattrel",
       type: ["flying", "electric", "normal"],
       meta: [""],
+      warning: ["Paralysis","Confusion"],
     },
     {
       name: "Mabosstiff",
       type: ["dragon", "fighting", "dark", "normal"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Grafaiai",
       type: ["poison", "normal", "dark"],
       meta: [""],
+      warning: ["Flatter"],
     },
     {
-      name: "toadscruel",
+      name: "Toedscruel",
       type: ["grass", "ground", "ghost"],
       meta: [""],
+      warning: ["Sleep"],
     },
     {
       name: "Klawf",
       type: ["rock", "bug", "dark"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Tinkaton",
       type: ["fairy", "steel", "dark"],
       meta: [""],
+      warning: ["Paralysis","Confusion"],
     },
     {
       name: "Bombirdier",
       type: ["rock", "dark", "flying"],
       meta: [""],
+      warning: [],
     },
 
     {
       name: "Revavroom",
       type: ["poison", "fire", "steel"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Cyclizar",
       type: ["normal", "dragon", "dark"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Orthworm",
       type: ["ground", "steel", "rock"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Glimmora",
       type: ["poison", "rock", "normal"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Cetitan",
       type: ["ice", "ground", "normal"],
       meta: [""],
+      warning: ["Sleep"],
     },
     {
       name: "Dondozo",
       type: ["water", "dragon", "steel", "ghost"],
       meta: [""],
+      warning: ["Sleep","Curse"],
     },
     {
       name: "Annihilape",
       type: ["ghost", "fighting"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Clodsire",
       type: ["ground", "poison", "bug"],
       meta: [""],
+      warning: ["Sleep"],
     },
     {
       name: "Farigiraf",
       type: ["psychic", "normal", "fighting"],
       meta: [""],
+      warning: [],
     },
     {
       name: "Kingambit",
       type: ["dark", "steel"],
       meta: [""],
+      warning: ["Paralysis"],
     },
     {
       name: "Baxcalibur",
       type: ["ice", "dragon", "fighting"],
       meta: [""],
+      warning: [],
     },
   ],
 };
@@ -2777,13 +2060,13 @@ let pokeArray = {
     },
     {
       name: "Croagunk",
-      type: ["poison", "fight"],
+      type: ["poison", "fighting"],
       meta: [""],
       imageData: "Not In Use",
     },
     {
       name: "Toxicroak",
-      type: ["poison", "fight"],
+      type: ["poison", "fighting"],
       meta: [""],
       imageData: "Not In Use",
     },
@@ -3126,7 +2409,7 @@ let pokeArray = {
     {
       name: "Weavile",
       type: ["dark", "ice"],
-      meta: [""],
+      meta: ["Freeze"],
       imageData: "Not In Use",
     },
     {
@@ -3598,8 +2881,8 @@ let pokeArray = {
       imageData: "Not In Use",
     },
     {
-      name: "Rotom",
-      type: [""],
+      name: "Rotom", //make other rotoms
+      type: ["electric"],
       meta: [""],
       imageData: "Not In Use",
     },
@@ -4031,7 +3314,7 @@ let pokeArray = {
     },
     {
       name: "Iron Treads",
-      type: ["steel", "Ground"],
+      type: ["steel", "ground"],
       meta: [""],
       imageData: "Not In Use",
     },
@@ -4143,8 +3426,53 @@ let pokeArray = {
       meta: [""],
       imageData: "Not In Use",
     },
+    {
+      name: "Charmander",
+      type: ["fire"],
+      meta: [""],
+      imageData: "Not In Use",
+    },
+    {
+      name: "Charmeleon",
+      type: ["fire"],
+      meta: [""],
+      imageData: "Not In Use",
+    },
+    {
+      name: "Charizard",
+      type: ["fire","flying"],
+      meta: [""],
+      imageData: "Not In Use",
+    },
+    {
+      name: "Scorbunny",
+      type: ["fire"],
+      meta: [""],
+      imageData: "Not In Use",
+    },
+    {
+      name: "Raboot",
+      type: ["fire"],
+      meta: [""],
+      imageData: "Not In Use",
+    },
+    {
+      name: "Cinderace",
+      type: ["fire"],
+      meta: [""],
+      imageData: "Not In Use",
+    },
   ],
 };
+
+const pokeName = pokeArray.pokemon.map((x) => x.name.toLowerCase());
+const pokeType = pokeArray.pokemon.map((x) => x.type);
+const pokeRaid5Name = raidPokemon5.pokemon.map((x) => x.name.toLowerCase());
+const pokeRaid5Type = raidPokemon5.pokemon.map((x) => x.type);
+const pokeRaid5Warning = raidPokemon5.pokemon.map((x) => x.warning);
+const pokeRaid6Name = raidPokemon6.pokemon.map((x) => x.name.toLowerCase());
+const pokeRaid6Type = raidPokemon6.pokemon.map((x) => x.type);
+const pokeRaid6Warning = raidPokemon6.pokemon.map((x) => x.warning);
 
 typeArray = [
   "normal",
@@ -4166,64 +3494,286 @@ typeArray = [
   "steel",
   "fairy",
 ];
+//attacker:[Defender,Defender,Defender]
+const strongType = {
+  normal: [""],
+  fire: ["grass", "ice", "bug", "steel"],
+  water: ["fire", "ground", "rock"],
+  grass: ["water", "ground", "rock"],
+  electric: ["water", "flying"],
+  ice: ["grass", "ground", "flying", "dragon"],
+  fighting: ["normal", "ice", "rock", "dark", "steel"],
+  poison: ["grass", "fairy"],
+  ground: ["fire", "electric", "poison", "rock", "steel"],
+  flying: ["grass", "fighting", "bug"],
+  psychic: ["fighting", "poison"],
+  bug: ["grass", "psychic", "dark"],
+  rock: ["fire", "ice", "flying", "bug"],
+  ghost: ["psychic", "ghost"],
+  dark: ["psychic", "ghost"],
+  dragon: ["dragon"],
+  steel: ["ice", "rock", "fairy"],
+  fairy: ["fighting", "dark", "dragon"],
+};
+
+const resistType = {
+  normal: ["rock", "steel"],
+  fire: ["fire", "water", "rock", "dragon"],
+  water: ["water", "grass", "dragon"],
+  grass: ["fire", "grass", "poison", "flying", "bug", "dragon", "steel"],
+  electric: ["grass", "electric", "dragon"],
+  ice: ["fire", "water", "ice", "steel"],
+  fighting: ["poison", "flying", "psychic", "bug", "fairy"],
+  poison: ["poison", "ground", "rock", "ghost"],
+  ground: ["grass", "bug"],
+  flying: ["electric", "rock", "steel"],
+  psychic: ["psychic", "steel"],
+  bug: ["fire", "fighting", "poison", "flying", "ghost", "steel", "fairy"],
+  rock: ["fighting", "ground", "steel"],
+  ghost: ["dark"],
+  dragon: ["steel"],
+  dark: ["fighting", "dragon", "fairy"],
+  steel: ["fire", "water", "electric", "steel"],
+  fairy: ["fire", "poison", "steel"],
+};
+
+const immuneType = {
+  normal: ["ghost"],
+  fire: [""],
+  water: [""],
+  grass: [""],
+  electric: ["ground"],
+  ice: [""],
+  fighting: ["ghost"],
+  poison: ["steel"],
+  ground: ["flying"],
+  flying: [""],
+  psychic: ["dark"],
+  bug: [""],
+  rock: [""],
+  ghost: ["normal"],
+  dragon: ["fairy"],
+  dark: [""],
+  steel: [""],
+  fairy: [""],
+};
+
+let resultATK = [];
+let resultDEF = 1;
+//takes each pokemon and assigns their match up
+//strengths adn weaknesses based on their type
+//this assumes STAB attacks only
+for (let i = 1; i < pokeArray.pokemon.length; i++) {
+  resultATK = [];
+  //initilize the array for each pokemon
+  pokeArray.pokemon[i].superATK = [];
+  pokeArray.pokemon[i].normalATK = [];
+  pokeArray.pokemon[i].resistATK = [];
+  pokeArray.pokemon[i].immuneATK = [];
+
+  pokeArray.pokemon[i].superWeakDEF2x = [];
+  pokeArray.pokemon[i].superWeakDEF4x = [];
+  pokeArray.pokemon[i].normalDEF = [];
+  pokeArray.pokemon[i].resistDEF = [];
+  pokeArray.pokemon[i].immuneDEF = [];
+
+  pokeArray.pokemon[i].raid5PokemonEasy = [];
+  pokeArray.pokemon[i].raid5PokemonNormal = [];
+  pokeArray.pokemon[i].raid5PokemonHard = [];
+  pokeArray.pokemon[i].raid5PokemonAvoid = [];
+
+  pokeArray.pokemon[i].raid6PokemonEasy = [];
+  pokeArray.pokemon[i].raid6PokemonNormal = [];
+  pokeArray.pokemon[i].raid6PokemonHard = [];
+  pokeArray.pokemon[i].raid6PokemonAvoid = [];
 
 
-//"Type"Strong as attacker is Super effective aginst Array
-normalStrong = [""];
-fireStrong = ["grass", "ice", "bug", "steel"];
-waterStrong = ["fire", "ground", "rock"];
-grassStrong = ["water", "ground", "rock"];
-electricStrong = ["water", "flying"];
-iceStrong = ["grass", "ground", "flying", "dragon"];
-fightingStrong = ["normal", "ice", "rock", "dark", "steel"];
-poisonStrong = ["grass", "fairy"];
-groundStrong = ["fire", "electric", "poison", "rock", "steel"];
-flyingStrong = ["grass", "fighting", "bug"];
-psychicStrong = ["fighting", "poison"];
-bugStrong = ["grass", "psychic", "dark"];
-rockStrong = ["fire", "ice", "flying", "bug"];
-ghostStrong = ["psychic", "ghost"];
-darkStrong = ["psychic", "ghost"];
-dragonStrong = ["dragon"];
-steelStrong = ["ice","rock", "fairy"];
-fairyStrong = ["fighting", "dark", "dragon"];
+  //compairs each raid pokes damage type with each
+  //given pokemons type, then returns the damage
+  //multiplier. then add the result to an array
+  
+  for(let j = 0;j<pokeRaid5Name.length;j++){
+    let damageValue = compairPokemon({
+      myPokemon:pokeName[i],
+      raidPokemon:pokeRaid5Name[j],
+      raidLevel:5,
+      })
+      // if(i=1) console.log(damageValue)
+      switch(damageValue) {
+        case 0:
+        case .25:
+        case .5 :
+          pokeArray.pokemon[i].raid5PokemonEasy.push(pokeRaid5Name[j]);
+          break;
+        case 1 :
+          pokeArray.pokemon[i].raid5PokemonNormal.push(pokeRaid5Name[j]);
+          break;
+        case 2 :
+          pokeArray.pokemon[i].raid5PokemonHard.push(pokeRaid5Name[j]);
+          break;
+        case 4 :
+          pokeArray.pokemon[i].raid5PokemonAvoid.push(pokeRaid5Name[j]);
+          break;
+      }
+  }
 
-//"Type"Weak as attacker is Not Very Effictive aginst Array
-normalWeak = ["rock", "steel"];
-fireWeak = ["fire", "water", "rock", "dragon"];
-waterWeak = ["water", "grass", "dragon"];
-grassWeak = ["fire", "grass", "poison", "flying", "bug", "dragon", "steel"];
-electricWeak = ["grass", "electric", "dragon"];
-iceWeak = ["fire", "water", "ice", "steel"];
-fightingWeak = ["poison", "flying", "psychic", "bug", "fairy"];
-poisonWeak = ["poison", "ground", "rock", "ghost"];
-groundWeak = ["grass", "bug"];
-flyingWeak = ["electric", "rock", "steel"];
-psychicWeak = ["psychic", "steel"];
-bugWeak = ["fire", "fighting", "poison", "flying", "ghost", "steel", "fairy"];
-rockWeak = ["fighting", "ground", "steel"];
-ghostWeak = ["dark"];
-dragonWeak = ["steel"];
-darkWeak = ["fighting", "dragon", "fairy"];
-steelWeak = ["fire", "water", "electric", "steel"];
-fairyWeak = ["fire", "poison", "steel"];
+  for(let j = 0;j<pokeRaid6Name.length;j++){
+    let damageValue = compairPokemon({
+      myPokemon:pokeName[i],
+      raidPokemon:pokeRaid6Name[j],
+      raidLevel:6,
+      })
+      switch(damageValue) {
+        case 0:
+        case .25:
+        case .5 :
+          pokeArray.pokemon[i].raid6PokemonEasy.push(pokeRaid6Name[j]);
+          break;
+        case 1 :
+          pokeArray.pokemon[i].raid6PokemonNormal.push(pokeRaid6Name[j]);
+          break;
+        case 2 :
+          pokeArray.pokemon[i].raid6PokemonHard.push(pokeRaid6Name[j]);
+          break;
+        case 4 :
+          pokeArray.pokemon[i].raid6PokemonAvoid.push(pokeRaid6Name[j]);
+          break;
+      }
+  }
 
-//"Type"Immune as attacker does no damage to Array
-normalImmune = ["ghost"];
-fireImmune = [];
-waterImmune = [];
-grassImmune = [];
-electricImmune = ["ground"];
-iceImmune = [];
-fightingImmune = ["ghost"];
-poisonImmune = ["steel"];
-groundImmune = ["flying"];
-flyingImmune = [];
-psychicImmune = ["dark"];
-bugImmune = [];
-rockImmune = [];
-ghostImmune = ["normal"];
-dragonImmune = ["fairy"];
-darkImmune = [];
-steelImmune = [];
-fairyImmune = [];
+  for(let j = 0;j<typeArray.length;j++) {
+    for (let k = 0; k < pokeArray.pokemon[i].type.length; k++) {
+      resultATK[k] = getHit({
+        type: pokeArray.pokemon[i].type[k],
+        compair: typeArray[j],
+      });
+    }
+    if (Math.max(...resultATK) < 1 && !Math.max(...resultATK) == 0) {
+      if (!pokeArray.pokemon[i].resistATK.includes(typeArray[j])) {
+        pokeArray.pokemon[i].resistATK.push(typeArray[j]);
+      }
+    }
+    if (Math.max(...resultATK) == 1) {
+      if (!pokeArray.pokemon[i].normalATK.includes(typeArray[j])) {
+        pokeArray.pokemon[i].normalATK.push(typeArray[j]);
+      }
+    }
+    if (Math.max(...resultATK) == 0) {
+      if (!pokeArray.pokemon[i].immuneATK.includes(typeArray[j])) {
+        pokeArray.pokemon[i].immuneATK.push(typeArray[j]);
+      }
+    }
+    if (Math.max(...resultATK) > 1) {
+      if (!pokeArray.pokemon[i].superATK.includes(typeArray[j])) {
+        pokeArray.pokemon[i].superATK.push(typeArray[j]);
+      }
+    }
+  }
+
+  for (let j = 0;j<typeArray.length;j++) {
+    resultDEF = 1;
+    for (let k = 0; k < pokeArray.pokemon[i].type.length; k++) {
+      resultDEF *= getHit({
+        type: typeArray[j],
+        compair: pokeArray.pokemon[i].type[k],
+      });
+    }
+
+    if (resultDEF == 4) pokeArray.pokemon[i].superWeakDEF4x.push(typeArray[j]);
+    if (resultDEF == 2) pokeArray.pokemon[i].superWeakDEF2x.push(typeArray[j]);
+    if (resultDEF == 1) pokeArray.pokemon[i].normalDEF.push(typeArray[j]);
+    if (resultDEF == 0.5) pokeArray.pokemon[i].resistDEF.push(typeArray[j]);
+    if (resultDEF == 0) pokeArray.pokemon[i].immuneDEF.push(typeArray[j]);
+  }
+
+  //twisty nobs to show pokemons
+  // superATK
+  // normalATK
+  // resistATK
+  // immuneATK
+  // superWeakDEF2x
+  // superWeakDEF4x
+  // normalDEF
+  // resistDEF
+  // immuneDEF
+  //raid5PokemonEasy
+  //raid5PokemonNormal
+  //raid5PokemonHard
+  //raid5PokemonAvoid
+  //raid6PokemonEasy
+  //raid6PokemonNormal
+  //raid6PokemonHard
+  //raid6PokemonAvoid
+  // var1 = pokeArray.pokemon[i].raid5PokemonEasy.length >= 30;
+  // var2 = 1;
+  // var3 = 1;
+  // var4 = 1;
+  // var5 = 1;
+
+  // if (var1 && var2 && var3 && var4 && var5) {
+  //   console.log(pokeArray.pokemon[i]);
+  // }
+
+}
+
+// console.log(pokeArray.pokemon[pokeName.indexOf("gyarados")]);
+// console.log(pokeName.indexOf("gyarados"));
+
+function compairPokemon({
+  myPokemon = "iron hands",
+  raidPokemon = "gengar",
+  raidLevel = 5,
+}) {
+  let typeIndex = pokeName.indexOf(myPokemon);
+  // pokeType
+  let Damage = [];
+
+  if (raidLevel == 5) {
+    let pokemonIndex = pokeRaid5Name.indexOf(raidPokemon);
+    for (let i = 0; i < pokeRaid5Type[pokemonIndex].length; i++) {
+      Damage[i] = 1;
+      let raidDamage = [];
+      for (let j = 0; j < pokeType[typeIndex].length; j++) {
+        raidDamage[j] = getHit({
+          type: pokeRaid5Type[pokemonIndex][i],
+          compair: pokeType[typeIndex][j],
+        });
+        Damage[i] *= raidDamage[j];
+      }
+    }
+  }
+
+    if (raidLevel == 6) {
+      let pokemonIndex = pokeRaid6Name.indexOf(raidPokemon);
+      for (let i = 0; i < pokeRaid6Type[pokemonIndex].length; i++) {
+        Damage[i] = 1;
+        let raidDamage = [];
+        for (let j = 0; j < pokeType[typeIndex].length; j++) {
+          raidDamage[j] = getHit({
+            type: pokeRaid6Type[pokemonIndex][i],
+            compair: pokeType[typeIndex][j],
+          });
+          Damage[i] *= raidDamage[j];
+        }
+      }
+    }
+
+  return Math.max(...Damage);
+}
+
+function getHit({ type, compair }) {
+  type = type.toLowerCase();
+  if (strongType[type].includes(compair)) {
+    return 2;
+  }
+  if (resistType[type].includes(compair)) {
+    return 0.5;
+  }
+  if (immuneType[type].includes(compair)) {
+    return 0;
+  }
+  return 1;
+}
+
+//todo
+//make other rotoms
