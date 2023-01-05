@@ -33,6 +33,10 @@ let avoid = 3;
 let checkRaid = 0
 
 
+$(function () {
+  $("#nav-placeholder").load("nav/navBar.html");
+});
+
 clickbtn.addEventListener("click", function () {
   for (let i = 0; i < 6; i++) {
     outputVarTeam[i].innerHTML = "Enter Pokemon";
