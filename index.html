@@ -6,56 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokemon Utility Tool Gen 9</title>
     <link rel="stylesheet" href="style/style.css" />
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js" 
-    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" 
-    crossorigin="anonymous"></script>
     <!--Navigation bar-->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <div id="nav-placeholder"></div>
-    <!-- <script>
-
-    </script> -->
-
-<!-- <div class="navContainer">
-  <link rel="stylesheet" href="nav/nav.css" />
-    <header>
-      <button class="hamburger">
-        <div class="bar"></div>
-      </button>
-    </header>
-        <nav class="hamburgerLinks">
-            <a href="index.html">Info</a>
-            <a href="raidCalculator.html">Raid Calculator</a>
-            <a href="https://www.patreon.com/user?u=24400331" target="_blank" >Patreon</a>
-        </nav>
-    </div>
-    <script src="nav/navBar.js"></script> -->
+    <script>
 
 
+
+
+      $(function () {
+        $("#nav-placeholder").load("nav/navBar.html", () => console.log("Finished loading nav"));
+      });
+    </script>
     <!--end of Navigation bar-->
 
   </head>
   <body>
     <h1>Tool Info</h1>
-    <p>This tool is designed to assist in figuring out which raid encounters your team should be able to take on with little issue</p>
-    <p>The tool assumes STAB moves onle from your given team, and takes into account the type of each move the raid pokemon has access to</p>
-    <p>Simple add between 1 to 6 pokemon you wish to evaluate, then click submit, the tool will generate a list of that tera types your pokemon
-    <br>can handel, aswell as below will output every possiable raid encounter and their dificulty with your team.
-    <br>If you are looking for a speciffic raid pokemon, you can enter it to get mroe infor based on your team make up.</p>
-    <p>I hope this tool helps you in building yoru raid ready team, and if you do find it helpful and would like to help me out in return
-    <br>i have listed my patreon in the site nag menu in the top right corner.</p>
-    <!-- 
-        hamburger menu
-            tools
-            tools
-            tools
-            tools
-        welcome
-            info
+    <p>
+      This tool is designed to assist in figuring out which raid encounters your team should be able to take on with little issue
+      <br>
+      <br>The tool assumes STAB moves onle from your given team, and takes into account the type of each move the raid pokemon has access to
+      <br>
+      <br>Simple add between 1 to 6 pokemon you wish to evaluate, then click submit, the tool will generate a list of that tera types your pokemon
+      <br>can handel, aswell as below will output every possiable raid encounter and their dificulty with your team.
+      <br>If you are looking for a speciffic raid pokemon, you can enter it to get mroe infor based on your team make up.
+      <br>
+      <br>I hope this tool helps you in building yoru raid ready team, and if you do find it helpful and would like to help me out in return
+      <br>i have listed my patreon in the site nag menu in the top right corner.</p>
 
-
-        Support Devlopment
-            pateron
-     -->
-    <script src="/script/app.js"></script>
+    <!-- <script src="/script/app.js"></script> -->
   </body>
 </html>
